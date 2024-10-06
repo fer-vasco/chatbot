@@ -10,6 +10,6 @@ clave = 123
 text_input = st.text_input("Clave 👇")
 
 if text_input:
-    if text_input == clave:
+    if str(text_input) == clave:
         st.write("You entered: ", text_input)
 
