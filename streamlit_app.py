@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("💬 Prueba!")
+st.title("🍁 Prueba!")
 st.write(
     "Prueba de input y control"
 )
