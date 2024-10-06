@@ -10,6 +10,8 @@ st.write(
 
 clave = 123
 clave_input = st.text_input("Clave:", type="password")
+st.write("Clave correcta:")
+st.write(clave_input)
 
 if clave_input == clave:
     st.write("Clave Correcta")
