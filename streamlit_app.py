@@ -11,7 +11,7 @@ st.write(
 clave = 123
 clave_input = st.text_input("Clave:", type="password")
 
-if clave_input == clave
+if clave_input == clave:
     st.write("Clave Correcta")
 else:
     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
